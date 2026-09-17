@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+build/
+dist/
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Sistema (Windows/macOS/Linux)
+Thumbs.db
+.DS_Store
+
+# Paquete: cache de sonidos sintetizados (se regeneran solos)
+# (descomentar si NO quieres versionar los .wav generados)
+# snake_game/assets/*.wav
